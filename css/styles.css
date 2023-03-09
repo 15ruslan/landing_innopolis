@@ -115,8 +115,13 @@ header {
     font-weight: 700;
     color: #FFF;
     margin: 0;
-    position: relative;  
+    position: relative; 
+    overflow-x: hidden; 
 }
+
+.content-home__btn::-webkit-scrollbar {
+    width: 0;
+  }
 
 .btn-link__flare {
     position: absolute;
