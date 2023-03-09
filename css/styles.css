@@ -1,4 +1,5 @@
 body {
+    background-color: #F6F2F2;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -9,9 +10,13 @@ body {
 
 header {
     background-color: #F6F2F2;
+    position: sticky;
+    top: 0;
+    height: 90px;
+    margin-top: 30px;
 }
 
-.header__div {
+.header__box {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -22,9 +27,10 @@ header {
     min-height: 90px;
     margin: 0 auto;
     background-color: #000000;
+    opacity: 0.8;
 }
 
-.header__div-menu {
+.header__menu {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -33,16 +39,17 @@ header {
     margin: 0;
 }
 
-.header__menu-link {
+.header__item {
     display: flex;
     align-items: center;
     padding: 0 24px;
     color: #E0E0E0;
     font-size: 14px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.header__menu-link:hover {
+.header__item:hover {
     background-color: #FF3F40;
 }
 
@@ -52,7 +59,7 @@ header {
     flex-grow: 1;    
 }
 
-.content-home__div {
+.content-home__box {
     background-color: #F6F2F2;
 }
 
@@ -80,6 +87,7 @@ header {
     line-height: 72px;
     font-weight: 700;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
     padding: 0;
 }
 
@@ -87,12 +95,11 @@ header {
     margin: 36px 0 64px 0;
     font-size: 16px;
     line-height: 28px;
-    
     font-weight: 200;
     max-width: 544px;
 }
 
-.content-home__btn-link {
+.content-home__btn {
     box-sizing: border-box;
     display: inline-block;
     width: 228px;
@@ -108,6 +115,28 @@ header {
     font-weight: 700;
     color: #FFF;
     margin: 0;
+    position: relative;  
+}
+
+.btn-link__flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 64px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
 }
 
 .content-home__video {
