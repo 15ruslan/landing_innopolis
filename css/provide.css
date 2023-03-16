@@ -1,0 +1,121 @@
+.content-provide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-top: 106px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.content-provide__intro {
+    position: relative;
+    bottom: 12px;
+    max-width: 540px;
+    padding: 0;
+    margin-right: 100px;
+}
+
+.content-provide__title {
+    margin: 0;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.content-provide__text {
+    margin: 36px 0 64px 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 200;
+    max-width: 510px;
+}
+
+.content-provide__btn {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 228px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #FF0000;
+    margin: 0;
+    position: relative; 
+    overflow-x: hidden; 
+    border: 2px solid #FF0000;
+}
+
+.content-provide__btn::-webkit-scrollbar {
+    width: 0;
+}
+
+.content-provide__btn:hover {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.btn-provide__flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 64px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(192, 43, 43, 0.1), rgba(192, 43, 43, 0.4));
+    animation: flareAnimation 3s infinite linear;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.section-provide {
+    flex: 1 1;
+    max-width: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 168px;
+}
+
+.section-provide__content {
+    flex: 1 1 290px;
+    width: 290px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.section-provide__img {
+    margin-top: 128px;
+}
+
+.section-provide__title {
+    margin-top: 38px;
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.section-provide__text {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+}

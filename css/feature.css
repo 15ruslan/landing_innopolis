@@ -1,0 +1,27 @@
+.content-feature {
+    margin: auto;
+    text-align: center;
+}
+
+.content-feature__title {
+    margin-top: 104px;
+    font-size: 42px;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+
+.content-feature__text {
+    margin-top: 28px;
+    width: 536px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.content-feature__elem-red {
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+    margin-bottom: 100px;
+    margin-top: 34px;
+    border: none;
+}
