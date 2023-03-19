@@ -2,6 +2,7 @@
 @import url('./home.css');
 @import url('./provide.css');
 @import url('./feature.css');
+@import url('./team.css');
 
 body {
     margin: 0;
