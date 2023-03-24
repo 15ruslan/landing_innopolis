@@ -3,6 +3,8 @@
 @import url('./provide.css');
 @import url('./feature.css');
 @import url('./team.css');
+@import url('./form.css');
+@import url('./send.css');
 
 body {
     margin: 0;

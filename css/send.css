@@ -1,0 +1,23 @@
+.send-heading {
+    width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.send-heading__title {
+    margin-top: 104px;
+    font-size: 42px;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+
+.send-heading__text {
+    margin-top: 28px;
+    max-width: 772px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.line-red_left {
+    margin: 38px 0 0 0;
+}

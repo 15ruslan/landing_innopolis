@@ -1,0 +1,100 @@
+.form {
+    text-align: center;
+    width: 100%;
+    min-height: 516px;
+    background-color: #000;
+    opacity: 0.8;
+    margin-top: 114px;
+}
+
+.form__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.form__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.form__email {
+    width: 490px;
+    height: 82px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    color: #2C2C2C;
+    border: none;
+    border-radius: 6px;
+    padding-left: 38px;
+    margin-right: 20px;
+    margin-top: 56px;
+}
+
+.form__button {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 218px;
+    height: 82px;
+    padding: 0;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #FF2D2D;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #FFF;
+    margin: 0;
+    position: relative; 
+    overflow-x: hidden;
+    border: none;
+    margin-top: 56px; 
+    text-transform: uppercase;
+}
+
+.form__button::-webkit-scrollbar {
+    width: 0;
+}
+
+.form__button:hover {
+    background-color: #FFF;
+    color: #FF2D2D;
+    border: 2px solid #FF0000;
+}
+
+.btn-link__flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 64px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
