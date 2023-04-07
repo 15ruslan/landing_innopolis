@@ -22,13 +22,13 @@
                 <a class="header__item" href="#">
                     home
                 </a>
-                <a class="header__item" href="#">
+                <a class="header__item" href="#portfolio">
                     portfolio
                 </a>
-                <a class="header__item" href="#">
+                <a class="header__item" href="#about-us">
                     about us
                 </a>
-                <a class="header__item" href="#">
+                <a class="header__item" href="#contacts">
                     contact
                 </a>
             </nav>
@@ -37,9 +37,9 @@
     <main class="content-home">
         <section class="content-home__section">
             <div class="content-home__intro">
-                <h1 class="content-home__title">
+                <h2 class="content-home__title">
                     our strong organaisation
-                </h1>
+                </h2>
                 <p class="content-home__text">
                     Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
                     tempor incididunt ut labore et. ectetur adig ipis cing elit, sed do eiusmod
@@ -58,9 +58,9 @@
     </main>
     <section class="content-provide">
         <div class="content-provide__intro">
-            <h1 class="content-provide__title">
+            <h2 class="content-provide__title">
                 do you know we can provide for you?
-            </h1>
+            </h2>
             <p class="content-provide__text">
                 Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
                 tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur
@@ -118,7 +118,7 @@
             </div>
         </section>
     </section>
-    <div class="feature-heading">
+    <div class="feature-heading" id="portfolio">
         <h3 class="feature-heading__title">
             feature products
         </h3>
@@ -136,22 +136,22 @@
                 </a>
             </li>
             <li class="feature-product__item">
-                <a class="feature-product__link" href="#">
+                <a class="feature-product__link" href="">
                     print template
                 </a>
             </li>
             <li class="feature-product__item">
-                <a class="feature-product__link" href="#">
+                <a class="feature-product__link" href="">
                     web template
                 </a>
             </li>
             <li class="feature-product__item">
-                <a class="feature-product__link" href="#">
+                <a class="feature-product__link" href="">
                     user interface
                 </a>
             </li>
             <li class="feature-product__item">
-                <a class="feature-product__link" href="#">
+                <a class="feature-product__link" href="">
                     mock-up
                 </a>
             </li>
@@ -177,7 +177,7 @@
         </p>
         <hr class="line-red line-red_left">
     </div>
-    <div class="team">
+    <div class="team" id="about-us">
         <img class="team__worker-selected" src="./images/team-1.jpg" alt="фото сотрудника">
         <div class="team__group-content">
             <div class="team__worker-info">
@@ -189,40 +189,40 @@
                     sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
                 </p>
                 <div class="team__worker-puplics">
-                    <a class="team__worker-public" href="#">
+                    <a class="team__worker-public" href="https://facebook.com/">
                         Facebook
                     </a>
-                    <a class="team__worker-public" href="#">
+                    <a class="team__worker-public" href="https://dribbble.com/">
                         Dribble
                     </a>
-                    <a class="team__worker-public" href="#">
+                    <a class="team__worker-public" href="https://www.behance.net/">
                         Behance
                     </a>
-                    <a class="team__worker-public" href="#">
+                    <a class="team__worker-public" href="https://twitter.com/">
                         Twiter
                     </a>
                 </div>
             </div>
             <div class="workers">
-                <a class="worker" href="#">
+                <a class="worker" href="">
                     <p class="worker__name">
                         sokina jue
                     </p>
                     <img class="worker__photo" src="./images/team-2.jpg" alt="фото сотрудника">
                 </a>
-                <a class="worker" href="#">
+                <a class="worker" href="">
                     <p class="worker__name">
                         sokina jue
                     </p>
                     <img class="worker__photo" src="./images/team-3.jpg" alt="фото сотрудника">
                 </a>
-                <a class="worker" href="#">
+                <a class="worker" href="">
                     <p class="worker__name">
                         sokina jue
                     </p>
                     <img class="worker__photo" src="./images/team-4.jpg" alt="фото сотрудника">
                 </a>
-                <a class="worker" href="#">
+                <a class="worker" href="">
                     <p class="worker__name">
                         sokina jue
                     </p>
@@ -258,6 +258,57 @@
         </p>
         <hr class="line-red line-red_left">
     </div>
+    <div class="send" id="contacts">
+        <form class="send__form">
+            <input class="send__input" type="text" name="name" placeholder="Name" required>
+            <input class="send__input" type="email" name="mail" placeholder="Your Mail" required>
+            <textarea class="send__textarea" name="message" placeholder="Type your message"></textarea>
+            <button class="send__btn" type="submit">
+                send message
+                <span class="btn-provide__flare"></span>
+            </button>
+        </form>
+        <div class="page">
+            <div class="send-contacts">
+                <h2 class="send-contacts__title">
+                    contact info
+                </h2>
+                <p class="send-contacts__address">
+                    Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh
+                </p>
+                <p>
+                    <a href="malito:redwan@deviserweb.com" class="send-contacts__address">
+                        redwan@deviserweb.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:(+88)-017-617-46373" class="send-contacts__phone">
+                        (+88) 017 617 46373
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_block">
+            <p class="footer_text">© Copyright @Junaed 2016, All rights reserved.</p>
+            <div class="footer__social">
+                <a class="footer__link" href="https://twitter.com/">
+                    <img class="footer__img" src="./images/soc-1.png" alt="Twiter">
+                </a>
+                <a class="footer__link" href="https://instagram.com/">
+                    <img class="footer__img" src="./images/soc-2.png" alt="Instagram">
+                </a>
+                <a class="footer__link" href="https://plus.google.com/">
+                    <img class="footer__img" src="./images/soc-3.png" alt="Google+">
+                </a>
+                <a class="footer__link" href="https://facebook.com/">
+                    <img class="footer__img" src="./images/soc-4.png" alt="Facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

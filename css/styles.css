@@ -5,10 +5,12 @@
 @import url('./team.css');
 @import url('./form.css');
 @import url('./send.css');
+@import url('./footer.css');
 
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }

@@ -66,6 +66,7 @@
     border: none;
     margin-top: 56px; 
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .form__button::-webkit-scrollbar {

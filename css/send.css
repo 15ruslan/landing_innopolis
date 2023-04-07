@@ -21,3 +21,138 @@
 .line-red_left {
     margin: 38px 0 0 0;
 }
+
+.send {
+    width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.send__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 734px;
+}
+
+.send__input {
+    margin-bottom: 44px;
+    padding-left: 50px;
+    width: 290px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    background-color: #F6F2F2;
+    border: none;
+    border-radius: 6px;
+}
+
+.send__textarea {
+    margin-bottom: 44px;
+    padding-left: 54px;
+    padding-top: 32px;
+    width: 734px;
+    height: 220px;
+    resize: none;
+    background-color: #F6F2F2;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 8px 0 rgba(15, 16, 17, 0.3);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    
+}
+
+.send__btn {
+    position: relative;
+    overflow-x: hidden;
+    width: 734px;
+    height: 76px;
+    color: #FFFFFF;
+    background-color: #FF3B3B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+
+.send__btn::-webkit-scrollbar {
+    width: 0;
+}
+
+.send__btn:hover {
+    background-color: #FFF;
+    color: #FF2D2D;
+    border: 2px solid #FF0000;
+}
+
+.btn-send__flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 65px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.send-contacts {
+    box-sizing: border-box;
+    position: relative;
+    padding: 140px 100% 140px 60px;
+    min-width: 580px;
+    height: 486px;
+    margin-left: 104px;
+    background-color: #2D2D2D;
+}
+
+.send-contacts__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.send-contacts__address {
+    margin-top: 28px;
+    min-width: 316px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.send-contacts__phone {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    white-space: nowrap;
+}

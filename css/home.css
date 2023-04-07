@@ -59,6 +59,7 @@
     position: relative; 
     overflow-x: hidden;
     border: none; 
+    cursor: pointer;
 }
 
 .content-home__btn::-webkit-scrollbar {
