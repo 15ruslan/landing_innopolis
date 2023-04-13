@@ -11,7 +11,7 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 1250px;
@@ -33,7 +33,7 @@ header {
 .header__item {
     display: flex;
     align-items: center;
-    padding: 0 24px;
+    padding: 36px 24px;
     color: #E0E0E0;
     font-size: 14px;
     text-decoration: none;

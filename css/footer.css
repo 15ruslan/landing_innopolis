@@ -25,6 +25,10 @@
     margin-left: 18px;
 }
 
+.footer__link {
+    text-decoration: none;
+}
+
 .footer__img {
     width: 33px;
 }
