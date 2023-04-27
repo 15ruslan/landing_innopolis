@@ -99,3 +99,26 @@
     box-shadow: 0 0 20px 14px rgba(40, 40, 40, 0.2);
     border: none;
 }
+
+@media (max-width: 700px) {
+    .content-home__section {
+        justify-content: center;
+        align-items: center;  
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .content-home__title {
+        font-size: 40px;
+        
+    }
+    
+    .content-home__text {
+        margin: 18px 0 32px 0;
+    }
+
+    .content-home__btn {
+        margin-bottom: 20px;
+    }
+}

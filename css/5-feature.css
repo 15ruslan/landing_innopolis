@@ -12,7 +12,7 @@
 
 .feature-heading__text {
     margin-top: 28px;
-    width: 536px;
+    max-width: 536px;
     font-size: 16px;
     line-height: 28px;
 }
@@ -21,8 +21,7 @@
     width: 134px;
     height: 5px;
     background-color: #FF2D2D;
-    margin-bottom: 86px;
-    margin-top: 34px;
+    margin: 34px auto 86px auto;
     border: none;
 }
 
@@ -44,6 +43,7 @@
     text-transform: uppercase;
     font-size: 22px;
     line-height: 24px;
+    white-space: nowrap;
 }
 
 .feature-product__link {
@@ -76,4 +76,23 @@
 .product:hover {
     transition: 1s;
     transform: scale(1.1);
+}
+
+@media (max-width: 610px) {
+    .feature-heading__title {
+        margin-top: 50px;
+        font-size: 32px;
+    }
+
+    .products {
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        max-width: 400px;
+    }
 }

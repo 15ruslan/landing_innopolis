@@ -1,5 +1,6 @@
 .send-heading {
-    width: 1250px;
+    width: 100%;
+    max-width: 1250px;
     margin: 0 auto;
     padding-bottom: 80px;
 }
@@ -16,10 +17,6 @@
     max-width: 772px;
     font-size: 16px;
     line-height: 28px;
-}
-
-.line-red_left {
-    margin: 38px 0 0 0;
 }
 
 .send {
@@ -67,8 +64,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    
-    
 }
 
 .send__btn {
@@ -120,9 +115,8 @@
 
 .send-contacts {
     box-sizing: border-box;
-    position: relative;
     padding: 140px 100% 140px 60px;
-    min-width: 580px;
+    max-width: 580px;
     height: 486px;
     margin-left: 104px;
     background-color: #2D2D2D;
@@ -155,4 +149,52 @@
     color: #FFFFFF;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.page {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 1250px) {
+    .send {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .send-contacts {
+        max-width: 1250px;
+        padding: 140px 0 140px 60px;
+        margin-left: 0;
+    }
+
+    .send__btn {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 740px) {
+    .send-heading {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .send__form {
+        justify-content: center;
+        width: 100%;
+        max-width: 720px;  
+    }
+
+    .send__input {
+        width: 100%;
+        max-width: 710px;
+        margin: 10px;
+    }
+
+    .send__textarea {
+        width: 100%;
+        max-width: 720px;
+        margin: 10px;
+    }
 }

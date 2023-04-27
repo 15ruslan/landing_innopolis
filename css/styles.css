@@ -1,12 +1,12 @@
-@import url('./header.css');
-@import url('./home.css');
-@import url('./provide.css');
-@import url('./feature.css');
-@import url('./team.css');
-@import url('./form.css');
-@import url('./send.css');
-@import url('./footer.css');
-@import url('./burger.css');
+@import url('./1-header.css');
+@import url('./3-home.css');
+@import url('./4-provide.css');
+@import url('./5-feature.css');
+@import url('./6-team.css');
+@import url('./7-form.css');
+@import url('./8-send.css');
+@import url('./9-footer.css');
+@import url('./2-burger.css');
 
 body {
     margin: 0;
