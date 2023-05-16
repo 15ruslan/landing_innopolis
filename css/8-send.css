@@ -133,7 +133,7 @@
 
 .send-contacts__address {
     margin-top: 28px;
-    min-width: 316px;
+    width: 316px;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -196,5 +196,12 @@
         width: 100%;
         max-width: 720px;
         margin: 10px;
+    }
+
+    .send-contacts__address {
+        max-width: 290px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }

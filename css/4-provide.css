@@ -5,6 +5,7 @@
     align-items: flex-start;
     margin: 0 auto;
     max-width: 1250px;
+    width: 100%;
     padding-top: 106px;
     padding-bottom: 94px;
     border-bottom: 1px solid #ECECEC;
@@ -157,16 +158,25 @@
         align-items: center;
         text-align: center;
         max-width: 590px;
+        width: 100%;
         padding-bottom: 0;
     }
 
     .section-provide__content {
-        min-width: 350px;
+        width: 350px;
         height: 200px;
         margin-top: 20px;
+        padding: 0;
     }
 
     .section-provide__img {
         margin-top: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .section-provide__content {
+        max-width: 350px;
+        width: 100%;
     }
 }

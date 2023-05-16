@@ -14,17 +14,19 @@
     <link rel="icon" href="./images/fav.png" type="image/x-icon">
     <title>Успешная компания</title>
     <script defer src="./js/burger.js"></script>
+    <script defer src="./js/filter-product.js"></script>
+    <script defer src="./js/active.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="header__box open" id="menu">
+        <div class="header__box" id="menu">
             <button class="header__burger-btn" id="burger">
                 <span class="header__burger-btn_elem"></span>
                 <span class="header__burger-btn_elem"></span>
                 <span class="header__burger-btn_elem"></span>
             </button>
-            <nav class="header__menu">
+            <nav class="header__menu open">
                 <a class="header__item" href="#">
                     home
                 </a>
@@ -136,41 +138,31 @@
     </div>
     <div class="feature-product">
         <ul class="feature-product__filter">
-            <li class="feature-product__item">
-                <a class="feature-product__link feature-product__link_active" href="">
+            <li class="feature-product__item active" data-filter="all">
                     all
-                </a>
             </li>
-            <li class="feature-product__item">
-                <a class="feature-product__link" href="">
+            <li class="feature-product__item" data-filter="print-template" id="product-menu">
                     print template
-                </a>
             </li>
-            <li class="feature-product__item">
-                <a class="feature-product__link" href="">
+            <li class="feature-product__item" data-filter="web-template" id="product-menu">
                     web template
-                </a>
             </li>
-            <li class="feature-product__item">
-                <a class="feature-product__link" href="">
+            <li class="feature-product__item" data-filter="user-interface" id="product-menu">
                     user interface
-                </a>
             </li>
-            <li class="feature-product__item">
-                <a class="feature-product__link" href="">
+            <li class="feature-product__item" data-filter="mock-up" id="product-menu">
                     mock-up
-                </a>
             </li>
         </ul>
         <div class="products">
-            <img class="product" src="./images/product-1.jpeg" alt="товар">
-            <img class="product" src="./images/product-2.jpg" alt="товар">
-            <img class="product" src="./images/product-3.jpg" alt="товар">
-            <img class="product" src="./images/product-4.jpg" alt="товар">
-            <img class="product" src="./images/product-5.jpg" alt="товар">
-            <img class="product" src="./images/product-6.jpg" alt="товар">
-            <img class="product" src="./images/product-7.jpg" alt="товар">
-            <img class="product" src="./images/product-8.jpeg" alt="товар">
+            <img class="product hide print-template" src="./images/product-1.jpeg" alt="товар">
+            <img class="product hide user-interface" src="./images/product-2.jpg" alt="товар">
+            <img class="product hide print-template" src="./images/product-3.jpg" alt="товар">
+            <img class="product hide web-template" src="./images/product-4.jpg" alt="товар">
+            <img class="product hide mock-up" src="./images/product-5.jpg" alt="товар">
+            <img class="product hide web-template" src="./images/product-6.jpg" alt="товар">
+            <img class="product hide mock-up" src="./images/product-7.jpg" alt="товар">
+            <img class="product hide user-interface" src="./images/product-8.jpeg" alt="товар">
         </div>
     </div>
     <div class="team-heading">

@@ -152,4 +152,23 @@
     .team__worker-info {
         text-align: center;
     }
+
+    .team__group-content {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .team__worker-selected {
+        margin-right: 0;  
+    }
+    
+    .team__worker-info {
+        max-width: 650px;
+        width: 100%;
+    } 
+    
+    .team__worker-about {
+        max-width: 600px;
+        width: 100%;   
+    }
 }

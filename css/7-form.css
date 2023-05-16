@@ -120,6 +120,8 @@
     .form__item {
         display: flex;
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .form__email {
